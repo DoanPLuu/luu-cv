@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>LuuDoan's Portfolio</title>
+  </head>
+  <body>
+    <header class="site_header">
+      <div class="wrapper_inner">
+        <nav class="site_header_nav">
+          <ul id="links" role="list" class="flex flex_center">
+            <li><a href="#0">HOME</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#skills">SKILLS</a></li>
+            <li><a href="#education">EDUCATION</a></li>
+            <li><a href="#work">WORK</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section id="hero">
+        <div class="wrapper">
+          <div class="wrapper_inner">
+            <div class="text_center hero_content">
+              <h1 class="h2">Đoàn Phong Lưu</h1>
+              <p class="h5">INFORMATION TECHNOLOGY STUDENT IN VIETNAM</p>
+            </div>
+          </div>
+          <ul id="address" role="list" class="flex flex_between hero_social">
+            <address>TP Hồ Chí Minh, Việt Nam</address>
+            <ul role="list" class="flex">
+              <li>Find me online</li>
+              <li>
+                <a href="https://github.com/LuuD04N" target="_blank">
+                  <img
+                    src="/assets/icon-github.svg"
+                    alt="GitHub"
+                    width="24"
+                    height="24"
+                  />
+                </a>
+              </li>
+              <!-- <li>
+                <a href="https://x.com/sprucekhalifa" target="_blank">
+                  <img
+                    src="/assets/icon-twitter.svg"
+                    alt="Twitter"
+                    width="24"
+                    height="24"
+                  />
+                </a>
+              </li> -->
+            </ul>
+          </ul>
+        </div>
+      </section>
+      <section id="about">
+        <div class="wrapper">
+          <div class="text_center">
+            <h2 class="">
+              I am a web developer and technical writer. I write articles on web
+              development and programming.
+            </h2>
+          </div>
+          <div class="wrapper_inner">
+            <div class="about_content flex flex_around">
+              <figure class="about_figure text_center">
+                <img
+                  width="300px"
+                  height="300px"
+                  src="/assets/K.jpg"
+                  alt="Developer"
+                  class="about_img"
+                />
+                <figcaption class="about_caption">Lưu ❤️</figcaption>
+              </figure>
+              <p class="h5">
+                Born in Vietnam, I've spent 3+ years learning and using Java, C++ and Python
+                <br />
+                I want to use my coding experience to make a world a better place for everybody.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills">
+        <div class="wrapper">
+          <div class="text_center">
+            <h2>Skills</h2>
+          </div>
+          <div id="wrapper-content" class="wrapper_inner">
+            <ul>
+              <li>Java</li>
+              <li>Python</li>
+              <li>C++</li>
+              <li>Web Development</li>
+              <li>Figma</li>
+              <li>MySQL</li>
+              <li>AWS</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+        <section id="education">
+          <div class="wrapper">
+            <div class="text_center">
+              <h2>Education</h2>
+            </div>
+            <div id="wrapper-content" class="wrapper_inner">
+              <p>Information Technology Student at Saigon University (SGU), Vietnam</p>
+              <p>Expected Graduation: 2026</p>
+            </div>
+          </div>
+        </section>
+      
+      <section id="work">
+        <div class="wrapper_inner">
+          <div class="text_center">
+            <h4 class="h5">
+              So far I've built 5+ projects with Java and Python
+              you can check it out some of my projects on GitHub or download my <a href="">CV</a>.
+            </h4>
+            <!-- <ul role="list" class="work_logos flex flex_center">
+              <li>
+                <img src="/assets/logo1.png" alt="Acme Corp" />
+              </li>
+              <li>
+                <img src="/assets/logo2.png" alt="Acme Innovations" />
+              </li>
+              <li>
+                <img
+                  src="/assets/logo1.png"
+                  alt="Acme Solutions"
+                  width="50"
+                  height="50"
+                />
+              </li>
+              <li>
+                <img src="/assets/logo3.png" alt="Acme Technologies" />
+              </li>
+              <li>
+                <img src="/assets/logo1.png" alt="Acme Enterprises" />
+              </li>
+            </ul> -->
+          </div>
+        </div>
+      </section>
+      <section id="contact">
+        <div class="wrapper">
+          <div class="text_left">
+            <p>
+              Want to work together? <br />
+              I'd love to hear from you.
+            </p>
+          </div>
+
+          <div class="wrapper_inner">
+            <h5 class="h3">Contact Me via Mail</h5>
+            <form action="" method="post" class="contact_form">
+              <div class="flex">
+                <div class="form_group">
+                  <label for="name">NAME</label>
+                  <input type="text" id="name" name="name" />
+                </div>
+                <div class="form_group">
+                  <label for="email">EMAIL</label>
+                  <input type="email" id="email" name="email" />
+                </div>
+              </div>
+              <div class="form_group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message"></textarea>
+              </div>
+              <button type="submit">SEND MESSAGE</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <section id="footer">
+        <div class="wrapper">
+          <div class="text_right">
+            <p>&copy; 2025 LuuDoan</p>
+            <p>All rights reserved</p>
+          </div>
+        </div>
+      </section>
+    </footer>
+  </body>
+</html>
