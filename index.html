@@ -3,195 +3,457 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles.css" />
-    <title>LuuDoan's Portfolio</title>
+    <title>DoanPLuu</title>
+    <link rel="shortcut icon" href="img/favicov2.png" type="image/x-icon" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/media.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+      integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
+
   <body>
-    <header class="site_header">
-      <div class="wrapper_inner">
-        <nav class="site_header_nav">
-          <ul id="links" role="list" class="flex flex_center">
-            <li><a href="#0">HOME</a></li>
-            <li><a href="#about">ABOUT</a></li>
-            <li><a href="#skills">SKILLS</a></li>
-            <li><a href="#education">EDUCATION</a></li>
-            <li><a href="#work">WORK</a></li>
-            <li><a href="#contact">CONTACT</a></li>
-          </ul>
-        </nav>
+    <header id="header" class="header">
+      <div class="container container-lg">
+        <div class="header-nav">
+          <a
+            href="#home"
+            class="logo"
+            data-aos="fade-down"
+            data-aos-duration="1000"
+            >DoanPLuu</a
+          >
+          <nav id="nav" class="nav">
+            <ul class="nav-list" data-aos="fade-down" data-aos-duration="1000">
+              <li class="nav-item">
+                <a href="#home" class="nav-link active">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="#about" class="nav-link">About</a>
+              </li>
+              <li class="nav-item">
+                <a href="#projects" class="nav-link">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a href="#contact" class="nav-link">Contact</a>
+              </li>
+            </ul>
+            <button id="nav-btn" class="nav-btn">
+              <img
+                id="nav-btn-img"
+                src="img/icons/open.svg"
+                alt="Navigation button"
+              />
+            </button>
+          </nav>
+        </div>
       </div>
     </header>
-    <main>
-      <section id="hero">
-        <div class="wrapper">
-          <div class="wrapper_inner">
-            <div class="text_center hero_content">
-              <h1 class="h2">Đoàn Phong Lưu</h1>
-              <p class="h5">INFORMATION TECHNOLOGY STUDENT IN VIETNAM</p>
-            </div>
-          </div>
-          <ul id="address" role="list" class="flex flex_between hero_social">
-            <address>TP Hồ Chí Minh, Việt Nam</address>
-            <ul role="list" class="flex">
-              <li>Find me online</li>
-              <li>
-                <a href="https://github.com/LuuD04N" target="_blank">
+
+    <section id="home" class="hero">
+      <div class="container container-lg">
+        <div
+          class="hero-row"
+          data-aos="fade-zoom-in"
+          data-aos-easing="ease-in-out"
+          data-aos-delay="500"
+          data-aos-duration="1000"
+        >
+          <div class="hero-content">
+            <span class="hero-greeting"> Hello, I am</span>
+            <h1 class="hero-heading">Doan Phong Luu</h1>
+            <span class="hero-heading-subtitle"
+              >Game & Software Developer</span
+            >
+            <div class="about-social-list">
+              <div class="social-links-row">
+                <a href="https://github.com/DoanPLuu">
                   <img
-                    src="/assets/icon-github.svg"
-                    alt="GitHub"
-                    width="24"
-                    height="24"
+                    src="img/social_icons/github.svg"
+                    alt="Link to GitHub account"
                   />
                 </a>
-              </li>
-              <!-- <li>
-                <a href="https://x.com/sprucekhalifa" target="_blank">
+
+                <a href="https://www.linkedin.com/in/doanpluu/">
                   <img
-                    src="/assets/icon-twitter.svg"
-                    alt="Twitter"
-                    width="24"
-                    height="24"
+                    src="img/social_icons/linkedin.svg"
+                    alt="Link to linkedin profile"
                   />
                 </a>
-              </li> -->
-            </ul>
-          </ul>
-        </div>
-      </section>
-      <section id="about">
-        <div class="wrapper">
-          <div class="text_center">
-            <h2 class="">
-              I am a web developer and technical writer. I write articles on web
-              development and programming.
-            </h2>
-          </div>
-          <div class="wrapper_inner">
-            <div class="about_content flex flex_around">
-              <figure class="about_figure text_center">
-                <img
-                  width="300px"
-                  height="300px"
-                  src="/assets/K.jpg"
-                  alt="Developer"
-                  class="about_img"
-                />
-                <figcaption class="about_caption">Lưu ❤️</figcaption>
-              </figure>
-              <p class="h5">
-                Born in Vietnam, I've spent 3+ years learning and using Java, C++ and Python
-                <br />
-                I want to use my coding experience to make a world a better place for everybody.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
 
-      <section id="skills">
-        <div class="wrapper">
-          <div class="text_center">
-            <h2>Skills</h2>
-          </div>
-          <div id="wrapper-content" class="wrapper_inner">
-            <ul>
-              <li>Java</li>
-              <li>Python</li>
-              <li>C++</li>
-              <li>Web Development</li>
-              <li>Figma</li>
-              <li>MySQL</li>
-              <li>AWS</li>
-            </ul>
-          </div>
-        </div>
-      </section>
+                <!-- <a href="#!">
+                  <img
+                    src="img/social_icons/xing.svg"
+                    alt="Link to Xing profile"
+                  />
+                </a> -->
 
-        <section id="education">
-          <div class="wrapper">
-            <div class="text_center">
-              <h2>Education</h2>
+                <a href="https://www.facebook.com/DoanPhongLuugk/">
+                  <img
+                    src="img/social_icons/facebook.svg"
+                    alt="Link to facebook profile"
+                /></a>
+
+                <!-- <a href="#!">
+                  <img
+                    src="img/social_icons/instagram.svg"
+                    alt="Link to instagram profile"
+                /></a> -->
+              </div>
             </div>
-            <div id="wrapper-content" class="wrapper_inner">
-              <p>Information Technology Student at Saigon University (SGU), Vietnam</p>
-              <p>Expected Graduation: 2026</p>
+
+            <div>
+              <a href="#projects" class="btn">Check out my CV</a>
+              <a href="#contact" class="btn btn-white">How to Contact Me</a>
             </div>
           </div>
-        </section>
-      
-      <section id="work">
-        <div class="wrapper_inner">
-          <div class="text_center">
-            <h4 class="h5">
-              So far I've built 5+ projects with Java and Python
-              you can check it out some of my projects on GitHub or download my <a href="">CV</a>.
-            </h4>
-            <!-- <ul role="list" class="work_logos flex flex_center">
-              <li>
-                <img src="/assets/logo1.png" alt="Acme Corp" />
-              </li>
-              <li>
-                <img src="/assets/logo2.png" alt="Acme Innovations" />
-              </li>
-              <li>
-                <img
-                  src="/assets/logo1.png"
-                  alt="Acme Solutions"
-                  width="50"
-                  height="50"
-                />
-              </li>
-              <li>
-                <img src="/assets/logo3.png" alt="Acme Technologies" />
-              </li>
-              <li>
-                <img src="/assets/logo1.png" alt="Acme Enterprises" />
-              </li>
-            </ul> -->
+          <div class="hero-img">
+            <img
+              src="img/hero/hero5.png"
+              
+            />
           </div>
         </div>
-      </section>
-      <section id="contact">
-        <div class="wrapper">
-          <div class="text_left">
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <div class="container">
+        <div class="about-title">
+          <h2 class="title">About Me</h2>
+        </div>
+        <div class="about-row">
+          <div
+            class="about-content"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+          >
+            <p class="about-descr">
+              Hi, I’m Doan Phong Luu, a passionate designer and developer
+              specializing in software development, game and graphic design.
+              With over 3 years of experience, I love transforming ideas into
+              impactful creations that connect and inspire. Outside of work, I
+              enjoy exploring new places, learning new skills and sometime gaming a little. <br /><br />Let’s collaborate and bring your
+              vision to life!
+            </p>
+            <div class="about-download-btn">
+              <a href="#!" class="btn btn-white">Download CV</a>
+            </div>
+          </div>
+          <div
+            class="about-skills"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="100"
+          >
+            <div class="skill">
+              <div class="skill-title">Web Design</div>
+              <div class="skill-percent">95%</div>
+              <div class="skill-bar__progress">
+                <div class="skill-bar__fill" data-progress="95"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <div class="skill-title">HTML/CSS</div>
+              <div class="skill-percent">90%</div>
+              <div class="skill-bar__progress">
+                <div class="skill-bar__fill" data-progress="90"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <div class="skill-title">JavaScript</div>
+              <div class="skill-percent">65%</div>
+              <div class="skill-bar__progress">
+                <div class="skill-bar__fill" data-progress="65"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <div class="skill-title">C & C++</div>
+              <div class="skill-percent">50%</div>
+              <div class="skill-bar__progress">
+                <div class="skill-bar__fill" data-progress="50"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <div class="skill-title">Python</div>
+              <div class="skill-percent">80%</div>
+              <div class="skill-bar__progress">
+                <div class="skill-bar__fill" data-progress="80"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <div class="skill-title">Figma</div>
+              <div class="skill-percent">80%</div>
+              <div class="skill-bar__progress">
+                <div class="skill-bar__fill" data-progress="80"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="services-row">
+          <div
+            class="service-card"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="50"
+          >
+            <img class="service-card-img" src="img/services/01.svg" alt="" />
+            <h3 class="service-card-title">Level Design</h3>
             <p>
-              Want to work together? <br />
-              I'd love to hear from you.
+              Creating engaging and well-balanced game environments that provide 
+              players with immersive experiences, strategic challenges, and seamless progression.
             </p>
           </div>
 
-          <div class="wrapper_inner">
-            <h5 class="h3">Contact Me via Mail</h5>
-            <form action="" method="post" class="contact_form">
-              <div class="flex">
-                <div class="form_group">
-                  <label for="name">NAME</label>
-                  <input type="text" id="name" name="name" />
-                </div>
-                <div class="form_group">
-                  <label for="email">EMAIL</label>
-                  <input type="email" id="email" name="email" />
-                </div>
-              </div>
-              <div class="form_group">
-                <label for="message">Message</label>
-                <textarea id="message" name="message"></textarea>
-              </div>
-              <button type="submit">SEND MESSAGE</button>
-            </form>
+          <div
+            class="service-card"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="200"
+          >
+            <img class="service-card-img" src="img/services/02.svg" alt="" />
+            <h3 class="service-card-title">Frontend Development</h3>
+            <p>
+              Developing responsive, accessible, and dynamic websites using
+              modern tools to create seamless, engaging experiences.
+            </p>
+          </div>
+
+          <div
+            class="service-card"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="500"
+          >
+            <img class="service-card-img" src="img/services/03.svg" alt="" />
+            <h3 class="service-card-title">Software Development</h3>
+            <p>
+              Building efficient, scalable, and high-quality software solutions 
+              that meet user needs and drive innovation.
+            </p>
           </div>
         </div>
-      </section>
-    </main>
-    <footer>
-      <section id="footer">
-        <div class="wrapper">
-          <div class="text_right">
-            <p>&copy; 2025 LuuDoan</p>
-            <p>All rights reserved</p>
+      </div>
+    </section>
+
+    <section id="projects" class="projects">
+      <div class="container container-lg">
+        <div class="projects-title">
+          <h2 class="title">My Projects</h2>
+        </div>
+
+        <div class="projects-row">
+          <div
+            class="project-box"
+            data-aos="fade-zoom-in"
+            data-aos-easing="ease-in-out"
+            data-aos-duration="1000"
+          >
+            <a  target="_blank" href="https://github.com/DoanPLuu/Gun-Run">
+              <img class="project-img" src="img/works/01.png" alt="" />
+              <div class="project-mask">
+                <div class="project-caption">
+                  <h5 class="white">Gun and Run</h5>
+                  <p class="white">Level and Graphic Design</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div
+            class="project-box"
+            data-aos="fade-zoom-in"
+            data-aos-easing="ease-in-out"
+            data-aos-delay="300"
+            data-aos-duration="1000"
+          >
+            <a target="_blank" href="https://github.com/DBPCod/CNPM_QLSach">
+              <img class="project-img" src="img/works/02.png" alt="" />
+              <div class="project-mask">
+                <div class="project-caption">
+                  <h5 class="white">Bookstore software manager</h5>
+                  <p class="white">UI/UX Design, Coding</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div
+            class="project-box"
+            data-aos="fade-zoom-in"
+            data-aos-easing="ease-in-out"
+            data-aos-delay="600"
+            data-aos-duration="1000"
+          >
+            <!-- <a href="#!">
+              <img class="project-img" src="img/works/03.jpg" alt="" />
+              <div class="project-mask">
+                <div class="project-caption">
+                  <h5 class="white">Landing Page</h5>
+                  <p class="white">UI/UX Design, Web Development</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div
+            class="project-box"
+            data-aos="fade-zoom-in"
+            data-aos-easing="ease-in-out"
+            data-aos-delay="900"
+            data-aos-duration="1000"
+          >
+            <a href="#!">
+              <img class="project-img" src="img/works/04.jpg" alt="" />
+              <div class="project-mask">
+                <div class="project-caption">
+                  <h5 class="white">Portfolio</h5>
+                  <p class="white">Web Development</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div
+            class="project-box"
+            data-aos="fade-zoom-in"
+            data-aos-easing="ease-in-out"
+            data-aos-delay="1200"
+            data-aos-duration="1000"
+          >
+            <a href="#!">
+              <img class="project-img" src="img/works/05.jpg" alt="" />
+              <div class="project-mask">
+                <div class="project-caption">
+                  <h5 class="white">Cosmic Sea</h5>
+                  <p class="white">UI/UX Design, Web Development</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div
+            class="project-box"
+            data-aos="fade-zoom-in"
+            data-aos-easing="ease-in-out"
+            data-aos-delay="1500"
+            data-aos-duration="1000"
+          >
+            <a href="#!">
+              <img class="project-img" src="img/works/06.jpg" alt="" />
+              <div class="project-mask">
+                <div class="project-caption">
+                  <h5 class="white">eCommerce</h5>
+                  <p class="white">Web Development</p>
+                </div>
+              </div>
+            </a> -->
           </div>
         </div>
-      </section>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="container">
+        <div class="contact-title">
+          <h2 class="title">Contact Me</h2>
+        </div>
+        <div class="contact-content">
+          <p>
+            Tell me about your project.
+            <br />
+            Let's talk and work together!
+          </p>
+        </div>
+
+        <form class="contactForm" data-aos="zoom-in" data-aos-duration="1000">
+          <div class="input-box">
+            <!-- <input type="text" name="name" placeholder="Name" required />
+            <input
+              type="email"
+              name="email"
+              placeholder="Email Address"
+              required
+            /> -->
+          </div>
+
+          <!-- <textarea
+            name="message"
+            id=""
+            cols="30"
+            rows="10"
+            placeholder="Your Message"
+            required
+          ></textarea> -->
+          <div
+            class="contact-button"
+            data-aos="fade-zoom-in"
+            data-aos-easing="ease-in-out"
+            data-aos-delay="500"
+            data-aos-duration="1000"
+          >
+          <a href="mailto:doanphongluu082@gmail.com" class="btn btn-red">
+            doanphongluu082@gmail.com
+          </a>
+          </div>
+        </form>
+        <div class="response"></div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-row">
+          <div class="social-links-row footer-social">
+            <a href="https://github.com/DoanPLuu">
+              <img
+                src="img/social_icons/github.svg"
+                alt="Link to GitHub account"
+              />
+            </a>
+
+            <a href="https://www.linkedin.com/in/doanpluu/">
+              <img
+                src="img/social_icons/linkedin.svg"
+                alt="Link to linkedin profile"
+              />
+            </a>
+
+            <!-- <a href="#!">
+              <img src="img/social_icons/xing.svg" alt="Link to Xing profile" />
+            </a> -->
+
+            <a href="https://www.facebook.com/DoanPhongLuugk/">
+              <img
+                src="img/social_icons/facebook.svg"
+                alt="Link to facebook profile"
+            /></a>
+
+            <!-- <a href="#!">
+              <img
+                src="img/social_icons/instagram.svg"
+                alt="Link to instagram profile"
+            /></a> -->
+          </div>
+
+          <div class="footer-copyright">
+            <p>&copy; Copyright Doan Phong Luu 2025</p>
+          </div>
+        </div>
+      </div>
     </footer>
+
+    <div id="goToTop" class="goToTop">
+      <a href="#home">
+        <img src="img/icons/arrow_up.svg" alt="Back to top"
+      /></a>
+    </div>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"
+      integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script type="module" src="js/main.js"></script>
   </body>
 </html>
