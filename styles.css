@@ -235,7 +235,7 @@ section#work {
 section#contact {
   background-color: #4b0082;
   color: #e6e6fa;
-  --color-accent: #ff4500;
+  --color-accent: #0015ff;
 }
 section#footer {
   background-color: #1a1a40;
@@ -339,7 +339,7 @@ button[type="submit"] {
 }
 
 button[type="submit"]:hover {
-  background-color: #b30000;
+  background-color: #3301f8;
 }
 
 #address {
